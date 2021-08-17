@@ -29,7 +29,7 @@ $ pip install ecalculator-pkg-linda-oranya
 ```
 
 ``` shell
-$ pip install git+https://github.com/linda-oranya/pypi_calculator.git
+$ pip install git+https://github.com/TobAde/Calculator.git
 ```
 
 ### Usage
@@ -65,13 +65,6 @@ cal.divide(2)
 
 #returns 2
 ```
-
-``cal.divide(0)``
-
-number cannot be zero => float division by zero
-None
-
-``cal.memory_val``
 
 #### Memory
 ```python
