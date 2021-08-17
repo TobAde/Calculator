@@ -1,12 +1,12 @@
 import setuptools
 
 with open("README.md", "r", encoding="utf-8") as fh:
-    long_description = fh.read()
+    long_description = fh.read() 
 
 setuptools.setup(
     name="",
     version="0.0.1",
-    author="Oluwatobi Adeeniji",
+    author="Oluwatobi Adeniji",
     author_email="oluwatobiadeniji06@gmail.com",
     description="A mini calculator package",
     long_description=long_description,

@@ -127,7 +127,7 @@ class Calculator:
     
     def exponent(self, num: Union[int, float]) -> Union[int, float]:
         """
-        Raises the values in the calculator memory to the inputed value's power
+        Raises the values in the calculator memory to the power of the inputed value
         """
         self.__input_validation(num)
         self.__index = self.__index ** num
