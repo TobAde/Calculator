@@ -56,7 +56,7 @@ cal.add(7)
 cal.subtract(3)
 
 #returns 4
-#because the memory was not reset, 2 was subtracted from previous value 10
+#because the memory was not reset, 2 was subtracted from previous value 7
 ```
 
 #### Division
