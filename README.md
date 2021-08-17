@@ -5,7 +5,6 @@
 * Installation
 * Usage
 * Technologies used
-* Acknowledgement
 * License
 
 ### Introduction
