@@ -2,10 +2,10 @@
 
 ### Table of contents
 * [Introduction](#Introduction)
-* Installation
-* Usage
-* Technologies used
-* License
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Technologies used](#technologies used)
+* [License](#License)
 
 ### Introduction
 This is a python package hosted on PYPI and can be used to perform basic mathematical functions such as;
