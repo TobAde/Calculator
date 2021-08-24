@@ -73,7 +73,7 @@ cal.memory_value()
 #returns 2
 ```
 
-####Reset Memory
+#### Reset Memory
 ```python
 cal = cal.reset_memory()
 cal.memory_value()
@@ -82,6 +82,7 @@ cal.memory_value()
 
 ### Technologies used
 * Python version: 3.8
+* Pytest version: 6.2.4 
 
 ### License
 
