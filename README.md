@@ -1,7 +1,7 @@
 ## Calculator 
 
 ### Table of contents
-* Introduction
+* [Introduction](#Introduction)
 * Installation
 * Usage
 * Technologies used
