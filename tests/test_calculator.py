@@ -75,5 +75,5 @@ def test_input_validation():
 def memory_reset_test():
     """tests the Calculator memory reset method"""
     calc = Calculator(10)
-    calc.memory_reset()
+    calc.reset_memory()
     assert calc.memory_value == 0
