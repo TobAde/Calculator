@@ -4,7 +4,7 @@
 * [Introduction](#Introduction)
 * [Installation](#Installation)
 * [Usage](#Usage)
-* [Technologies used](#technologies used)
+* [Technologies used](#technologies-used)
 * [License](#License)
 
 ### Introduction
