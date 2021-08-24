@@ -54,21 +54,26 @@ class Calculator:
     @staticmethod
     def __input_validation(number: Union[int, float]) -> None:
         """
-        Validates that the inputed number is an integer or float
+        Validates that the inputed number is an integer or float.
+        :param number: any number of type int or float
+        :return : returns the result of the value entered in a
         """
         if not isinstance (number, (int, float)):
             raise TypeError("Not a Number (input float or integer)")
 
     def reset_memory(self) -> Union[int, float]:
         """
-            Resets memory to 0
+         Resets memory to 0
+         :return : returns the result of the value in memory
         """
         self.__index = 0
         return self.__index
        
     def add(self, num: Union[int, float]) -> Union[int, float]:
         """
-           Adds inputed number to value in the memory
+           Adds inputed number to value in the memory.
+           :param num: any number of type int or float
+           :return : returns the result of the value entered in num
         """
         self.__input_validation(num)
         self.__index += num
@@ -77,6 +82,8 @@ class Calculator:
     def subtract(self, num: Union[int, float]) -> Union[int, float]:
         """
           Subtracts inputed number from value in memory
+          :param num: any number of type int or float
+          :return : returns the result of the value entered in num
         """
         self.__input_validation(num)
         self.__index -= num
@@ -84,7 +91,9 @@ class Calculator:
 
     def multiply(self, num: Union[int, float]) -> Union[int, float]:
         """
-          Multiplies inputed number by value in memory
+          Multiplies inputed number by value in memory.
+          :param num: any number of type int or float
+          :return : returns the result of the value entered in num
         """
         self.__input_validation(num)
         self.__index *= num
@@ -92,7 +101,9 @@ class Calculator:
 
     def divide(self, num: Union[int, float]) -> Union[int, float]:
         """
-          Divides inputed number by value in memory
+          Divides inputed number by value in memory.
+          :param num: any number of type int or float
+          :return : returns the result of the value entered in num
         """
         self.__input_validation(num)
         try:
@@ -101,9 +112,11 @@ class Calculator:
         except ZeroDivisionError as err:
             print(f"number cannot be zero => {err}")
 
-    def modulus(self, num: Union[int, float]):
+    def modulus(self, num: Union[int, float]) -> Union[int, float]:
         """
-          Divides inputed number by value in memory and return the reminder
+          Divides inputed number by value in memory and return the reminder.
+          :param num: any number of type int or float
+          :return : returns the result of the value entered in num
         """
         self.__input_validation(num)
         try:
@@ -115,6 +128,8 @@ class Calculator:
     def nth_root(self, num: Union[int, float]) -> Union[int, float]:
         """
           Finds the root of number in the calculator memory by the inputed value given that memory_value > 0 && inputed num > 0
+          :param num: any number of type int or float
+          :return : returns the result of the value entered in num
         """
         self.__input_validation(num)
         if self.__index <= 0:
@@ -127,7 +142,9 @@ class Calculator:
     
     def exponent(self, num: Union[int, float]) -> Union[int, float]:
         """
-        Raises the values in the calculator memory to the power of the inputed value
+        Raises the values in the calculator memory to the power of the inputed value.
+        :param num: any number of type int or float
+        :return : returns the result of the value entered in num
         """
         self.__input_validation(num)
         self.__index = self.__index ** num
